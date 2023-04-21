@@ -11,10 +11,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@graphql-tools/load-files": "^6.6.1",
+    "@graphql-tools/merge": "^8.4.1",
+    "@graphql-tools/schema": "^9.0.18",
     "@prisma/client": "^4.13.0",
     "apollo-server": "^2.25.2",
     "apollo-server-core": "^3.12.0",
-    "Babel": "^0.0.1"
+    "Babel": "^0.0.1",
+    "dotenv": "^16.0.3",
+    "graphql-tools": "^8.3.20"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.0",
