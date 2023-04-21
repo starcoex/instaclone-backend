@@ -5,8 +5,4 @@ export default {
     users: () => {
       return client.user.findMany();
     },
-    seeProfile: (_, { userName }) => {
-      return client.user.findUnique({ where: { userName } });
-    },
-  },
 };
