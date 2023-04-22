@@ -4,7 +4,6 @@ import { makeExecutableSchema } from 'apollo-server';
 import path from 'path';
 
 const loadedTypes = loadFilesSync(`${__dirname}/**/*.typeDefs.js`)
-// const loadedResolvers = loadFilesSync(`${__dirname}/**/*.{queries,mutations}.js`);
 const loadedResolvers = loadFilesSync(
   path.join(__dirname, './**/*.resolvers.js')
 );
